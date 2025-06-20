@@ -1,0 +1,19 @@
+[project]
+name = 'lendfort'
+description = ''
+authors = []
+telemetry = true
+cache_dir = '.\.cache'
+requirements = []
+[contracts.lending-contract]
+path = 'contracts/lending-contract.clar'
+clarity_version = 2.5
+epoch = 2
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
