@@ -28,11 +28,6 @@
 ---
 
 ## 🔗 Supported Lending Platforms
-
-- Arkadiko Lend  
-- Zest Protocol  
-- Hermetica Lend  
-- StackSwap Lend  
 - ALEX Lend  
 - Bitflow Lend  
 - Velar Lend  
